@@ -1,5 +1,7 @@
 import cv2
 import mediapipe as mp
+import math
+
 
 class HandTracker():
     def __init__(self, static_image_mode=False, max_num_hands=2, model_complexity=1, min_detection_confidence=0.5, min_tracking_confidence=0.5):
@@ -28,7 +30,7 @@ class HandTracker():
         return image
 
     def get_landmarks(self, image, hand_num=0, draw=False):
-        landmarks = []
+        self.landmarks = []
 
         if self.results.multi_hand_landmarks:
             hand = self.results.multi_hand_landmarks[hand_num]
@@ -37,8 +39,45 @@ class HandTracker():
                 # getting the dimensions of the image capture
                 height, width, channel = image.shape
                 cx, cy = int(lm.x * width), int(lm.y * height)
-                landmarks.append([id, cx, cy])
+                self.landmarks.append([id, cx, cy])
                 if draw:
                     cv2.circle(image, (cx, cy), 15, (255, 255, 255), cv2.FILLED)
 
-        return landmarks
+        return self.landmarks
+
+    def get_distance(self, image, p1, p2, hand_num=0, draw=False):
+        if len(self.landmarks) == 0: 
+            return 0
+
+        # getting the x and y of the landmarks 
+        x1, y1 = self.landmarks[p1][1], self.landmarks[p1][2]
+        x2, y2 = self.landmarks[p2][1], self.landmarks[p2][2]
+
+        # use math to find the distance 
+        return math.hypot(x2 - x1, y2 - y1)
+
+    # returns 1 if the finger is up and 0 if the finger is down
+    def get_finger_orientation(self, image, finger=0, hand_num=0):
+        
+        if len(self.landmarks) == 0: 
+            return -1
+
+        # finger must be from 0 - 4
+        if finger >= 0 and finger < 5:
+            # get the y value of the finger landmarks
+            if finger == 0:
+                finger_middle = 5
+            else:
+                finger_middle = finger * 4 + 2
+            finger_tip = finger * 4 + 4
+
+            wrist = 0
+
+            if self.get_distance(image, finger_tip, wrist) < self.get_distance(image, finger_middle, wrist):
+                return 0
+            else:
+                return 1
+
+
+    def draw_landmark(self, image, p1):
+        cv2.circle(image, (self.landmarks[p1][1], self.landmarks[p1][2]), 15, (255, 255, 255), cv2.FILLED)
