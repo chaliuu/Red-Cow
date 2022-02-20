@@ -8,7 +8,7 @@ import urllib
 def main():
     cam_width, cam_height = 640, 480
 
-    cap = cv2.VideoCapture("http://192.168.1.68/capture?")
+    cap = cv2.VideoCapture("http://192.168.1.68:81/stream")
     cap.set(3, cam_width)
     cap.set(4, cam_height)
 
