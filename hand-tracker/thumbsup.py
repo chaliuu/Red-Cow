@@ -18,7 +18,23 @@ while True:
 
     # getting the image from the tracker
     image = tracker.find_hands(image, True)
-    landmarks = tracker.get_landmarks(image, draw=True)
+    landmarks = tracker.get_landmarks(image)
+
+    if len(landmarks) > 0:
+
+        thumb = tracker.get_finger_orientation(image, 0)
+        index_finger = tracker.get_finger_orientation(image, 1)
+        ring_finger = tracker.get_finger_orientation(image, 3)
+
+        # print(thumb, finger1, finger2, finger3, finger4)
+
+        tracker.draw_landmark(image, 4)
+        tracker.draw_landmark(image, 9)
+
+        if thumb == 1 and index_finger + ring_finger == 0 and landmarks[4][2] < landmarks[9][2]:
+            print('thumbs up!')
+        else:
+            print('thumbs not up')
 
     cur_time = time.time()
     fps = 1 / (cur_time - pr_time)
