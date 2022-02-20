@@ -2,7 +2,6 @@ import cv2
 import mediapipe as mp
 import math
 
-
 class HandTracker():
     def __init__(self, static_image_mode=False, max_num_hands=2, model_complexity=1, min_detection_confidence=0.5, min_tracking_confidence=0.5):
         self.mode = static_image_mode
@@ -45,7 +44,7 @@ class HandTracker():
 
         return self.landmarks
 
-    def get_distance(self, image, p1, p2, hand_num=0, draw=False):
+    def get_distance(self, p1, p2, hand_num=0, draw=False):
         if len(self.landmarks) == 0: 
             return 0
 
@@ -65,15 +64,15 @@ class HandTracker():
         # finger must be from 0 - 4
         if finger >= 0 and finger < 5:
             # get the y value of the finger landmarks
+            finger_tip = finger * 4 + 4
             if finger == 0:
                 finger_middle = 5
+                reference_point = 17
             else:
                 finger_middle = finger * 4 + 2
-            finger_tip = finger * 4 + 4
+                reference_point = 0
 
-            wrist = 0
-
-            if self.get_distance(image, finger_tip, wrist) < self.get_distance(image, finger_middle, wrist):
+            if self.get_distance(finger_tip, reference_point) < self.get_distance(finger_middle, reference_point):
                 return 0
             else:
                 return 1

@@ -2,8 +2,8 @@ import cv2
 import time
 import math
 from modules import handtrackingmodule as htm
-import platform
 import numpy as np
+import platform
 
 # getting the operating system
 os_name = platform.system()
@@ -83,8 +83,6 @@ while True:
 
                 # set the volume on Windows system
                 volume.SetMasterVolumeLevel(vol, None)
-
-            # cv2.line(image, (x1, y1), (x2, y2), (255, 255, 255), 3)
 
     cur_time = time.time()
     fps = 1/(cur_time - pr_time)

@@ -1,12 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
 
 driver = webdriver.Chrome()
 
 driver.get('https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F')
-
-# time.sleep(2)
 
 # remember to remove this information before making commit
 login = ['charlesliu688@gmail.com', 'letsgospurs']
@@ -18,10 +15,6 @@ password_form = driver.find_element(By.ID, 'login-password')
 password_form.send_keys(login[1])
 
 driver.find_element(By.ID, 'login-button').click()
-
-# time.sleep(10)
-
-# driver.find_element(By.XPATH, '//*[@id="onetrust-close-btn-container"]/button').click()
 
 while True:
     action = str(input('What would you like to do?: '))

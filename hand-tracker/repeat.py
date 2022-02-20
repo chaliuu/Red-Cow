@@ -29,10 +29,6 @@ while True:
         pinky_finger = tracker.get_finger_orientation((image, 4))
 
         if thumb + index_finger + middle_finger + ring_finger + pinky_finger == 5:
-            tracker.draw_landmark(image, 2)
-            tracker.draw_landmark(image, 5)
-            tracker.draw_landmark(image, 4)
-            tracker.draw_landmark(image, 12)
 
             reference_length = tracker.get_distance(image, 2, 5)
             length = tracker.get_distance(image, 4, 12)
