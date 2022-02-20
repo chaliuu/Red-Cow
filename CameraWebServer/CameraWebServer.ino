@@ -19,7 +19,7 @@
 
 #include "camera_pins.h"
 
-const char* ssid = "SVS1";
+const char* ssid = "SVS";
 const char* password = "skyviewsuites";
 
 
