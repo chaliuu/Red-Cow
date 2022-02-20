@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="742e1477-eb63-428e-9613-4a96266147cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hand-tracker/opencvtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hand-tracker/outpy.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hand-tracker/redcow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hand-tracker/savevideotest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand-tracker/.idea/hand-tracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand-tracker/.idea/hand-tracker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand-tracker/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hand-tracker/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand-tracking/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hand-tracking/HandPose/IMG_7704.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hand-tracker/handleft.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hand-tracker/handleft.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandEstimation 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandEstimation 2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
