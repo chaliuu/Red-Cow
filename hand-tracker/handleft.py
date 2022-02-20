@@ -34,11 +34,11 @@ def main():
                 print(knuckles[1], knuckles[2])
                 previous_locations.append([knuckles[1], knuckles[2]])
                 print(previous_locations)
-                if len(previous_locations) > 20:
+                if len(previous_locations) > 15:
                     previous_locations.pop(0)
-                # delta_x = previous_locations[len(previous_locations) - 1][0] - previous_locations[0][0]
-                # delta_y = previous_locations[len(previous_locations) - 1][1] - previous_locations[0][1]
-                # findAction(previous_locations, cam_width, cam_height, delta_x, delta_y)
+                delta_x = previous_locations[len(previous_locations) - 1][0] - previous_locations[0][0]
+                delta_y = previous_locations[len(previous_locations) - 1][1] - previous_locations[0][1]
+                findAction(previous_locations, cam_width, cam_height, delta_x, delta_y)
 
                 # print("delta_x: ", delta_x, "delta_y: ", delta_y)
                 # print(previous_time)
@@ -55,24 +55,26 @@ def main():
         cv2.waitKey(1)
 
 
-def findAction(previous_locations_list, cam_w, cam_h):
+def findAction(previous_locations_list, cam_w, cam_h, delta_x_, delta_y_):
     """Compute the net change in x and y coords to
     determine which overall direction the motion went in.
     Also, determine which quadrant this delta belongs to, thereby
     finding the associated motion."""
 
-    delta_x_ = previous_locations_list[len(previous_locations_list) - 1][0] - previous_locations_list[0][0]
-    delta_y_ = previous_locations_list[len(previous_locations_list) - 1][1] - previous_locations_list[0][1]
+    # delta_x_ = previous_locations_list[len(previous_locations_list) - 1][0] - previous_locations_list[0][0]
+    # delta_y_ = previous_locations_list[len(previous_locations_list) - 1][1] - previous_locations_list[0][1]
 
-    theta_a = math.degrees(math.atan(delta_y_ / delta_x_))
+    if delta_x_ != 0:
+        theta_a = math.degrees(math.atan(delta_y_ / delta_x_))
 
-    if delta_y_ > 0:
+    if delta_y_ > 0 and delta_x_ != 0:
         theta_ref = math.degrees(math.atan(cam_h / cam_w))
     else:
         theta_ref = math.degrees(math.atan(-cam_h / cam_w))
 
-    print("theta_a: ", theta_a)
-    print("theta_ref: ", theta_ref)
+    if delta_x_ != 0:
+        print("theta_a: ", theta_a)
+        print("theta_ref: ", theta_ref)
 
     action = ""
 
@@ -92,7 +94,7 @@ def findAction(previous_locations_list, cam_w, cam_h):
         print("Q2")
         if 0 > theta_a > theta_ref:
             action = "Play Previous Song"
-        elif 0 > theta_ref > theta_a:
+        elif 0 > theta_ref > theta_a or theta_ref > 0 > theta_a:
             action = "Pause Song"
 
     # quadrant III of the trig circle
@@ -128,9 +130,9 @@ if __name__ == "__main__":
     # prev = [[407, 421], [283, 255], [286, 180], [302, 39], [189, 55], [141, 252], [368, 396], [372, 276], [391, 195], [398, 116], [397, 76], [380, 3], [339, 423], [337, 361], [372, 93], [375, 32]]
 
     # leftward motion – play previous song
-    prev = [[444, 369], [444, 369], [444, 370], [446, 370], [445, 367], [447, 369], [448, 368], [447, 368], [446, 367], [506, 223], [419, 222], [354, 234], [305, 245], [209, 246], [135, 234], [565, 297], [510, 281], [437, 279], [343, 270], [200, 250], [16, 239]]
+    # prev = [[444, 369], [444, 369], [444, 370], [446, 370], [445, 367], [447, 369], [448, 368], [447, 368], [446, 367], [506, 223], [419, 222], [354, 234], [305, 245], [209, 246], [135, 234], [565, 297], [510, 281], [437, 279], [343, 270], [200, 250], [16, 239]]
 
 
-    findAction(prev, 640, 480)
+    # findAction(prev, 640, 480)
 
-    # main()
+    main()
