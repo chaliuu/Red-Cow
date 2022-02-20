@@ -29,7 +29,7 @@ if os_name == 'Windows':
     volume = cast(interface, POINTER(IAudioEndpointVolume))
 
     volume_range = volume.GetVolumeRange()
-    min_volume = volume_range[0]
+    min_volume = volume_range[0] + 10
     max_volume = volume_range[1]
 
 
@@ -71,16 +71,14 @@ while True:
         print(min_length, max_length)
 
         # getting the volume by interpolating
-        volume = np.interp(length, [min_length, max_length], [min_volume, max_volume])
+        vol = np.interp(length, [min_length, max_length], [min_volume, max_volume])
 
         # set the volume by the os system
         if os_name == 'Darwin':
-            print('Setting the volume to ', int(volume))
-            code, out, error = osascript.osascript(f'set volume output volume {int(volume)}')
+            code, out, error = osascript.osascript(f'set volume output volume {int(vol)}')
 
         if os_name == 'Windows':
-            print('Setting the volume to ', volume)
-            volume.SetMasterVolumeLevel(volume, None)
+            volume.SetMasterVolumeLevel(vol, None)
 
         cv2.line(image, (x1, y1), (x2, y2), (255, 255, 255), 3)
 
