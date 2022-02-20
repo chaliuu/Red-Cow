@@ -22,7 +22,24 @@ password_form = driver.find_element(By.ID, 'login-password')
 password_form.send_keys(login[1])
 
 driver.find_element(By.ID, 'login-button').click()
-
+#
+# import urllib.request
+# import cv2 as cv # Please install with PIP: pip install cv2
+# import numpy as np
+#
+# frame = None
+# key = None
+#
+# print('START')
+# while True:
+#   imgResponse = urllib.request.urlopen ('http://192.168.1.68/capture?')
+#   imgNp = np.array(bytearray(imgResponse.read()),dtype=np.uint8)
+#   frame= cv.imdecode (imgNp,-1)
+#   cv.imshow('Window',frame)
+#   key = cv.waitKey(10)
+#   if key == (ord('q')):
+#     break
+# cv.destroyAllWindows()
 
 # getting the operating system
 os_name = platform.system()
@@ -64,8 +81,6 @@ def main():
     action_done_once = False
 
     action = ""
-    enable = True
-
 
     while True:
         # get the image from the video capture
@@ -291,17 +306,17 @@ def findAction(cam_w, cam_h, delta_x_, delta_y_):
     Also, determine which quadrant this delta belongs to, thereby
     finding the associated motion."""
 
-    # if delta_x_ != 0:
-    #     theta_a = math.degrees(math.atan(delta_y_ / delta_x_))
+    if delta_x_ != 0:
+        theta_a = math.degrees(math.atan(delta_y_ / delta_x_))
 
-    # if delta_y_ > 0 and delta_x_ != 0:
-    #     theta_ref = math.degrees(math.atan(cam_h / cam_w))
-    # else:
-    #     theta_ref = math.degrees(math.atan(-cam_h / cam_w))
+    if delta_y_ > 0 and delta_x_ != 0:
+        theta_ref = math.degrees(math.atan(cam_h / cam_w))
+    else:
+        theta_ref = math.degrees(math.atan(-cam_h / cam_w))
 
-    # if delta_x_ != 0:
-    #     print("theta_a: ", theta_a)
-    #     print("theta_ref: ", theta_ref)
+    if delta_x_ != 0:
+        print("theta_a: ", theta_a)
+        print("theta_ref: ", theta_ref)
 
     action = ""
 
@@ -313,7 +328,7 @@ def findAction(cam_w, cam_h, delta_x_, delta_y_):
     
     if delta_x_ > 0:
         action = "next" 
-    else:
+    elif delta_x_ < 0:
         action = "previous"
 
     # # quadrant I of the trig circle
