@@ -28,10 +28,10 @@ while True:
         ring_finger = tracker.get_finger_orientation(image, 3)
         pinky_finger = tracker.get_finger_orientation((image, 4))
 
-        if thumb + index_finger + ring_finger + ring_finger + pinky_finger == 0:
-            print('hand closed')
+        if thumb + index_finger + pinky_finger == 3 and middle_finger + ring_finger == 0:
+            print('shuffle shown')
         else:
-            print('hand not closed')
+            print('shuffle not shown')
 
     cur_time = time.time()
     fps = 1 / (cur_time - pr_time)

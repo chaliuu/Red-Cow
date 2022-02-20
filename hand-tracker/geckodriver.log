@@ -1,0 +1,421 @@
+1645336734335	geckodriver	INFO	Listening on 127.0.0.1:61784
+1645336734346	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61785" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofile4TQ9hy"
+1645336769881	geckodriver	INFO	Listening on 127.0.0.1:62087
+1645336770397	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62088" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofile1FmOVw"
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://localhost:62088/devtools/browser/7a56c152-68f4-4992-ada1-d0840fe29c01
+1645336796224	geckodriver	INFO	Listening on 127.0.0.1:62190
+1645336796761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62191" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilew1DI2b"
+1645336824102	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilew1DI2b/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62191/devtools/browser/8b4ca6be-5a73-4234-9c9a-3775c26683b7
+1645336826078	Marionette	INFO	Listening on port 62198
+1645336826179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645336833111	Marionette	INFO	Stopped listening on port 62198
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645336847678	geckodriver	INFO	Listening on 127.0.0.1:62597
+1645336848215	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62598" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilepdFPlx"
+1645336849029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilepdFPlx/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:62598/devtools/browser/02becd77-2da6-4148-9134-0cb423d1462d
+1645336850943	Marionette	INFO	Listening on port 62605
+1645336851033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645336860664	Marionette	INFO	Stopped listening on port 62605
+1645337280949	geckodriver	INFO	Listening on 127.0.0.1:63009
+1645337281488	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63010" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilelupksH"
+1645337283329	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilelupksH/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63010/devtools/browser/e20b4a64-74a6-47b4-92d7-6587cd148071
+1645337285410	Marionette	INFO	Listening on port 63017
+1645337285458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645337583158	geckodriver	INFO	Listening on 127.0.0.1:63258
+1645337583707	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63259" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileU2rrhJ"
+1645337585847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileU2rrhJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63259/devtools/browser/17de869a-8e1b-4798-bc1e-9db7323d9b81
+1645337588426	Marionette	INFO	Listening on port 63266
+1645337588509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645337692203	geckodriver	INFO	Listening on 127.0.0.1:63517
+1645337692733	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63518" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofile3qQ1nK"
+1645337694310	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofile3qQ1nK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63518/devtools/browser/ca3f2054-4d68-4d97-a38d-d4f7d4635737
+1645337696269	Marionette	INFO	Listening on port 63525
+1645337696377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645337726927	geckodriver	INFO	Listening on 127.0.0.1:63679
+1645337726954	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63680" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileYrCy4x"
+1645337728162	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileYrCy4x/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63680/devtools/browser/2199521e-240b-41bc-890a-62567d9515f9
+1645337730413	Marionette	INFO	Listening on port 63685
+1645337730491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645337747466	Marionette	INFO	Stopped listening on port 63685
+1645337762797	Marionette	INFO	Stopped listening on port 63017
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645337778949	Marionette	INFO	Stopped listening on port 63266
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645337782370	Marionette	INFO	Stopped listening on port 63525
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645337794356	geckodriver	INFO	Listening on 127.0.0.1:63834
+1645337794900	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63835" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileWP0MXP"
+1645337795894	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileWP0MXP/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:63835/devtools/browser/bf82dae1-230e-4202-a697-b4654a9707d1
+1645337797960	Marionette	INFO	Listening on port 63842
+1645337798053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: https://www-growth.scdn.co/_next/static/chunks/main-b379bda81264653cd152.js, line 1: TypeError: n is null
+1645337815181	Marionette	INFO	Stopped listening on port 63842
+1645338001543	geckodriver	INFO	Listening on 127.0.0.1:64096
+1645338001564	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64097" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileQlzlxy"
+1645338005545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileQlzlxy/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:64097/devtools/browser/a3537cc8-936c-4dfb-ba9c-4c8990460ee5
+1645338008982	Marionette	INFO	Listening on port 64102
+1645338009101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.spotify.com"
+JavaScript error: https://www-growth.scdn.co/_next/static/chunks/main-b379bda81264653cd152.js, line 1: TypeError: n is null
+1645338027099	Marionette	INFO	Stopped listening on port 64102
+1645339656544	geckodriver	INFO	Listening on 127.0.0.1:64447
+1645339657083	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64448" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofiledqxGo3"
+1645339659533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofiledqxGo3/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:64448/devtools/browser/59e8636b-b55c-43b3-949b-0e7d616d78c5
+1645339662480	Marionette	INFO	Listening on port 64455
+1645339662515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645339852942	geckodriver	INFO	Listening on 127.0.0.1:64618
+1645339853465	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64619" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilegIUJYa"
+1645339854475	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilegIUJYa/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:64619/devtools/browser/71e9c83e-27f7-45a3-8ccf-7f39cf902e46
+1645339857303	Marionette	INFO	Listening on port 64626
+1645339857345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+1645339871712	Marionette	INFO	Stopped listening on port 64455
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1645339878510	Marionette	INFO	Stopped listening on port 64626
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645340057891	geckodriver	INFO	Listening on 127.0.0.1:64806
+1645340058421	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64807" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilescACDi"
+1645340060824	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilescACDi/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:64807/devtools/browser/d56db66a-d766-4276-82e8-801df9ce560a
+1645340064110	Marionette	INFO	Listening on port 64814
+1645340064199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645340076282	Marionette	INFO	Stopped listening on port 64814
+1645342166152	geckodriver	INFO	Listening on 127.0.0.1:51077
+1645342166678	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51078" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileILi1IO"
+1645342170437	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileILi1IO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:51078/devtools/browser/b1ba40c2-7aa1-4ef1-a4ba-f6528561f765
+1645342175241	Marionette	INFO	Listening on port 51085
+1645342175372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645342191921	Marionette	INFO	Stopped listening on port 51085
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645342385876	geckodriver	INFO	Listening on 127.0.0.1:52094
+1645342386397	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52095" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilezHNRqy"
+1645342388641	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilezHNRqy/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52095/devtools/browser/b807ea8a-8d3e-429f-851c-927961784dcc
+1645342391613	Marionette	INFO	Listening on port 52102
+1645342391741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645342408685	Marionette	INFO	Stopped listening on port 52102
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645342450537	geckodriver	INFO	Listening on 127.0.0.1:52459
+1645342451070	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52460" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileEVPGKs"
+1645342453296	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileEVPGKs/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52460/devtools/browser/b4333d1a-1185-43a2-92a7-32bce5abfde7
+1645342455947	Marionette	INFO	Listening on port 52467
+1645342455975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645342470591	Marionette	INFO	Stopped listening on port 52467
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645342475086	geckodriver	INFO	Listening on 127.0.0.1:52747
+1645342475618	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52748" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilehppaLh"
+1645342476459	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilehppaLh/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:52748/devtools/browser/dde71dbf-ea37-4518-a126-ff412e6be147
+1645342477954	Marionette	INFO	Listening on port 52759
+1645342478029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645342492066	Marionette	INFO	Stopped listening on port 52759
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645343374019	geckodriver	INFO	Listening on 127.0.0.1:56600
+1645343374561	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "56601" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilejtcNzw"
+1645343376977	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilejtcNzw/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:56601/devtools/browser/ad975675-512d-431c-8741-fd39808cc752
+1645343381459	Marionette	INFO	Listening on port 56608
+1645343381587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+1645343422161	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1645343422389	Marionette	INFO	Stopped listening on port 56608
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645343708468	geckodriver	INFO	Listening on 127.0.0.1:58148
+1645343709000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58149" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileHSACQL"
+1645343712671	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileHSACQL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58149/devtools/browser/73f4b510-ee34-40b9-a6c3-dcc0a9e1c8db
+1645343716654	Marionette	INFO	Listening on port 58160
+1645343716735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+1645343744503	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlaybackError: No supported keysystem was found.
+1645343830538	geckodriver	INFO	Listening on 127.0.0.1:58853
+1645343831061	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58854" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileYXMJW4"
+1645343832843	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileYXMJW4/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58854/devtools/browser/c57a86ad-7e3c-4387-9ac4-122830f73c08
+1645343835715	Marionette	INFO	Listening on port 58861
+1645343835791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645343840389	Marionette	INFO	Stopped listening on port 58861
+1645343862475	geckodriver	INFO	Listening on 127.0.0.1:59086
+1645343863001	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59087" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileMVfsRl"
+1645343863977	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofileMVfsRl/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:59087/devtools/browser/efc4a43e-a2be-4515-b207-503df8b9b5d0
+1645343865684	Marionette	INFO	Listening on port 59098
+1645343865730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+1645343880127	Marionette	INFO	Stopped listening on port 59098
+1645343906678	geckodriver	INFO	Listening on 127.0.0.1:59443
+1645343907220	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59444" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilejfVR0G"
+1645343908776	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilejfVR0G/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:59444/devtools/browser/765c810b-55a2-4443-970c-2284a5089198
+1645343910698	Marionette	INFO	Listening on port 59455
+1645343910785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+[Child 21463, MediaDecoderStateMachine #1] WARNING: 143689200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlayerAPIClientError: No such device.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: EMEError: No supported keysystem was found.
+JavaScript error: https://open.scdn.co/cdn/build/web-player/web-player.5a770ded.js, line 1: PlaybackError: No supported keysystem was found.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Hujgl23SVzI3rZSj4hNxUITd7BayDnfI5D3l6J-e8FI.js line 1 > eval line 4634 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 21483, MediaDecoderStateMachine #1] WARNING: 119519200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:375
+1645344063876	Marionette	INFO	Stopped listening on port 59455
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645344067563	Marionette	INFO	Stopped listening on port 58160
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645344074705	geckodriver	INFO	Listening on 127.0.0.1:59981
+1645344075302	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "59982" "-foreground" "-no-remote" "-profile" "/var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilex5WDgX"
+1645344077244	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/pg/2_thnv_9281_4qmg9x87q0fm0000gn/T/rust_mozprofilex5WDgX/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:59982/devtools/browser/3eb8f162-0483-4591-8a1f-3d4b28715551
+1645344079327	Marionette	INFO	Listening on port 59989
+1645344079378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.spotify.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://open.spotify.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://tr.snapchat.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645344148258	Marionette	INFO	Stopped listening on port 59989
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+

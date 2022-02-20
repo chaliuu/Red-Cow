@@ -28,10 +28,19 @@ while True:
         ring_finger = tracker.get_finger_orientation(image, 3)
         pinky_finger = tracker.get_finger_orientation((image, 4))
 
-        if thumb + index_finger + ring_finger + ring_finger + pinky_finger == 0:
-            print('hand closed')
-        else:
-            print('hand not closed')
+        if thumb + index_finger + middle_finger + ring_finger + pinky_finger == 5:
+            tracker.draw_landmark(image, 2)
+            tracker.draw_landmark(image, 5)
+            tracker.draw_landmark(image, 4)
+            tracker.draw_landmark(image, 12)
+
+            reference_length = tracker.get_distance(image, 2, 5)
+            length = tracker.get_distance(image, 4, 12)
+
+            if abs(length - reference_length) < 30:
+                print('repeat shown')
+            else: print('repeat not shown')
+        else: print('repeat not shown')
 
     cur_time = time.time()
     fps = 1 / (cur_time - pr_time)
