@@ -1,3 +1,5 @@
+**This is a proof of concept prototype testing the ability of the ESP32 module to communicate through wifi**
+
 The above code allows the esp32 wroom board to serve as a webserver to control LED lights
 
 change SSID (wife network name) and wifi password according to your wife network
