@@ -25,7 +25,7 @@ To run this project, you must have `python3` and you need to set up a python env
 * osascript
 * pycaw
 * selenium
-* urllib
+* urllib3
 
 You also need to install the chrome driver in the executable path. 
 
